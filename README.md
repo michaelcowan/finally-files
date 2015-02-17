@@ -1,5 +1,6 @@
-# SimpleStrapFile
+[![Gem Version](https://badge.fury.io/rb/simple_strap_file.svg)](http://badge.fury.io/rb/simple_strap_file)
 
+# SimpleStrapFile
 [Simple Form](https://github.com/plataformatec/simple_form) component that provides a pretty file input using [Twitter Bootstrap](http://getbootstrap.com/) for styling.
 
 > Based on ['Whipping File Inputs Into Shape with Bootstrap 3'](http://www.abeautifulsite.net/whipping-file-inputs-into-shape-with-bootstrap-3/) by [Cory LaViska](https://twitter.com/claviska).
