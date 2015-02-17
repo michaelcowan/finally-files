@@ -1,14 +1,34 @@
-# Installation
-This module is designed to add a custom input to [Simple Form](https://github.com/plataformatec/simple_form) using [Twitter Bootstrap](http://getbootstrap.com/) for styling. It is assumed that these are already included in your project.
+# SimpleStrapFile
 
-1. Copy `file_input.rb` to `config/initializers/simple_form`
-2. Restart Rails
-3. Profit!!!
+[Simple Form](https://github.com/plataformatec/simple_form) component that provides a pretty file input using [Twitter Bootstrap](http://getbootstrap.com/) for styling.
 
-# This again
-Yeah, I know. There are a heap of really good 'pretty file input' examples out there for Bootstrap already, so why another? 
+> Based on ['Whipping File Inputs Into Shape with Bootstrap 3'](http://www.abeautifulsite.net/whipping-file-inputs-into-shape-with-bootstrap-3/) by [Cory LaViska](https://twitter.com/claviska).
 
-Well, this one doesnt require any css or js to be added to your assets. A pretty file input is an ugly leg sticking out of any project, at least this way its all kept in one place.
+## Installation
 
-Also you know that thing where you want the file input to have a width of 100% and the button ends up underneath the text input? This doesnt do that.
+### Prerequisites
+> *It is assumed you have installed Bootstrap and Simple Form already*
 
+Ensure you have applied Bootstrap styling to Simple Form using:
+
+`rails generate simple_form:install --bootstrap`
+
+### Gem
+Add `gem 'simple_strap_file'` to your application's Gemfile and run `bundle`.
+
+### Assets
+Import styling in `app/assets/stylesheets/application.css`:
+
+`*= require simple_strap_file`
+
+Require Javascripts in `app/assets/javascripts/application.js`
+
+`//= require simple_strap_file`
+
+## Contributing
+
+1. Fork it (https://github.com/michaelcowan/simple_strap_file/fork)
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
