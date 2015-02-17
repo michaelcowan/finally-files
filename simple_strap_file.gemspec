@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mike.c.cowan@gmail.com"]
 
   spec.summary       = "Simple Form component that provides a pretty file input using Bootstrap"
-  spec.description   = "Brings form file inputs in line with the other Bootstrap themed fields"
+  spec.description   = "Brings Simple Form file inputs in line with the other Bootstrap themed fields"
   spec.homepage      = "https://github.com/michaelcowan/simple-strap-file"
   spec.license       = "MIT"
 
