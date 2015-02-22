@@ -26,6 +26,14 @@ Require Javascripts in `app/assets/javascripts/application.js`
 
 `//= require simple_strap_file`
 
+### Tips
+
+If you are using Paperclip and have an `avatar` column you can use the following in your form:
+
+`<%= f.input :avatar, input_html: { value: f.object.avatar_file_name, readonly: true } %>`
+
+> This will also show the filename when the form is shown in the edit view.
+
 ## Contributing
 
 1. Fork it (https://github.com/michaelcowan/simple_strap_file/fork)
